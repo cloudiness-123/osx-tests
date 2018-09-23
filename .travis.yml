@@ -4,3 +4,5 @@ jobs:
   include:
     - stage: isp
       script: curl https://www.whoismyisp.org
+    - stage: who
+      script: whoami
